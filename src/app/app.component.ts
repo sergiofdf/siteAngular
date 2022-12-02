@@ -59,4 +59,8 @@ export class AppComponent {
     console.log("Formulário enviado com sucesso!", formData);
   }
 
+  onSearchSubmitted(searchTerm: string): void {
+    console.log("Pesquisa com o termo seguinte enviada:", searchTerm);
+  }
+
 }
